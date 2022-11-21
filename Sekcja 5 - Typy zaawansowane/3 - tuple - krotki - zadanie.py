@@ -1,0 +1,15 @@
+marketing = ['loyalty program', 'client promotion', 'market research']
+# print(marketing)
+marketing.append('public relations')
+# print(marketing)
+# print(marketing[3])
+marketing.insert(2, 'investor relations')
+# print(marketing)
+email_marketing = marketing.copy()
+email_marketing.sort()
+# print(email_marketing)
+internal_emails = ['internal communication']
+email_marketing.extend(internal_emails)
+# print(email_marketing)
+new_tuple = tuple(email_marketing)
+print(new_tuple)
